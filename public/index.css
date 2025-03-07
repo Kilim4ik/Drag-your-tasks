@@ -1,0 +1,40 @@
+@keyframes bg-anim {
+  from {
+    background-position-y: 0%;
+  }
+  to {
+    background-position-y: -200%;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 20px 15px 0;
+  height: 100%;
+  font-size: 24px;
+  font-family: sans-serif;
+  background: linear-gradient(180deg, #1e6f9f, #4ea8de);
+  background-size: 100% 200%;
+  background-repeat: repeat-y;
+  animation: bg-anim 1s linear infinite;
+}
+#root {
+  margin: 0 0 20px;
+  box-sizing: border-box;
+  min-height: calc(100vh - 40px);
+  background-color: #333;
+  padding-bottom: 30px;
+}
+main {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+svg {
+  width: 22px;
+  height: 36px;
+}
