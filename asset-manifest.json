@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Drag-your-tasks/static/css/main.adc42fba.css",
+    "main.js": "/Drag-your-tasks/static/js/main.e938fca1.js",
+    "index.html": "/Drag-your-tasks/index.html",
+    "main.adc42fba.css.map": "/Drag-your-tasks/static/css/main.adc42fba.css.map",
+    "main.e938fca1.js.map": "/Drag-your-tasks/static/js/main.e938fca1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.adc42fba.css",
+    "static/js/main.e938fca1.js"
+  ]
+}
